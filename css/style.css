@@ -1,268 +1,324 @@
-@import url("https://www.cssfontstack.com/Arial%20Black");
-html{
-    background-color: #C5C1BC;
-    width: 1280px;
-    height: 940px;
-    box-sizing: border-box;
+.html{
     margin: auto;
+    width: 1280px;
+    height: 100%;
+    background-color:#E7E4E1;
+    box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
 	box-sizing: inherit;
 }
-.container{
+body{
     max-width: 1280px;
-    background-color: #C5C1BC;
-}
-/* header */
-.header{
-    max-width: 1280px;
-    max-height: 60px;
-    color:#B3AEAB;
-}
-.head-line{
-    max-width: 1280px;
-    max-height: 20px;
-    color:#5C5955;
-    margin: 0 22px 0 0;
-}
-
-/*.head-title{
-    position: absolute;
     margin: 0;
-    margin: 42px 0 0 0;
-    display: block;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    width: 271px;
-    height: 42px;
-    color: #778A50;
-    font-size: 44px;
-    padding: 53px 0 0 0; 
-} 
-.top-contract{
-    display: flex;
-}*/
-.btn-img{
-    position: absolute  ;
-    display: flex;
-    width: 40.85px;
-    height: 30.85px;
-    margin: 61px 0 0 739px;
 }
-.btn-hompage{
-    margin: 10px 0 0 800px;
-}
-/*.line{
-    position: absolute;
-    width: 1px;
-    height: 25px;
-    background-color: #778A50;
-    margin: 61px 0 0 809px;
-}*/
-.box-home{
-    position: absolute;
-    width: 60px;
-    height: 25px;
-    border: solid 1px #778A50;
-    border-radius: 3px;
-    margin: 61px 820px 0 0px;
-}
-.box-porfolio{
-    position: absolute;
-    width: 60px;
-    height: 25px;
-    border: solid 1px #778A50;
-    border-radius: 3px;
-    margin: 61px 820px 0 0px;
-}
-.box-contact{
-    position: absolute;
-    width: 60px;
-    height: 25px;
-    border: solid 1px #778A50;
-    border-radius: 3px;
-    margin: 61px 820px 0 0px;
-}
-.login{
-    width: 60px;
-    height: 25px;
-    position: absolute;
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 14px;
-    color : #778A50;
-    text-align: center;
-    line-height: 25px;
-}
-.box-join{
-    position: absolute;
-    width: 50px;
-    height: 25px;
-    border: solid 1px #778A50;
-    border-radius: 3px;
-    margin: 61px 0 0 890px;
-}
-.porfolio{
-    width: 50px;
-    height: 25px;
-    position: absolute;
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 14px;
-    color : #778A50;
-    text-align: center;
-    line-height: 25px;
-}
-/* content */
-.content-area{
-    display: flex;
-}
-
-.home:hover{
-    background-color: #778A50;
-    color: #EDF2C5;
-}
-.porfolio:hover{
-    background-color: #778A50;
-    color: #EDF2C5;
-}
-.contact:hover{
-    background-color: #778A50;
-    color: #EDF2C5;
-}
-.pro_pic{
-    position: absolute;
-    width: 940px;
-    height: 448px;
-    margin: 167px 160px 0 160px;
-}
-
-/* aside */
-.box-veg{
-    position: absolute;
-    width: 445px;
-    height: 45px;
-    background-color: #778A50;
-    margin: 645px 0 0 160px;
-    border-radius: 3px;
-}
-.title-veg{
-    position: absolute;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    font-size: 16px;
-    color: #EDF2C5;
-    margin: 14px 0 15px 30px;
-}
-
-.box-contact{
-    position: absolute;
-    width: 445px;
-    height: 45px;
-    background-color: #778A50;
-    margin: 645px 0 0 655px;
-    border-radius: 3px;
-}
-.title-contact{
-    position: absolute;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    font-size: 16px;
-    color: #EDF2C5;
-    margin: 14px 0 15px 30px;
-}
-.content-img{
-    position: absolute;
-    display: flex;
-    width: 140px;
-    height: 140px;
-    border: 3px;
-    margin: 250px 0 0 160px;
-}
-.img-self{
-    margin: 0 0 0 15px;
-}
-
-.contact-bg{
-    position: absolute;
-    width: 445px;
-    height: 140px;
-    background-color: #F7FBDA;
-    margin: 705px 0 0 655px;
-    border: 3px;
-}
-.text{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.33;
-    font-size: 12px;
-    color: #7D7D7D;
-    margin: 16px 0 16px 15px;
-}
-.contact-line{
-    position: absolute;
-    background-color: #E5E5E5;
-    width: 414px;
-    height: 1px;
-    margin: 0px 0 15px 15px;
-}
-.info{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #E5E5E5;
-    margin: 30px 0 16px 15px;
-    line-height: 1.83;
-}
-
-.footer{
+header{
     width: 1280px;
-    height: 230px;
-    background-color: #857F7A;
-    margin-top: 900px;
+    margin-top: 0;
+    background-image: url(/pic/header_bg.png);
 }
-
-.footer-box{
-    position: absolute   ;
-    display: flex;
-    width: 1280px;
-    height: 200px;
-    background-color: #857F7A;
-    margin-top: 0px;
+.header_bg{
+    height: 153px;
 }
-.nav{
+.header_logo{
+    position: absolute;
+    width: 156px;
+    height: 118px;
+    left: 50px;
+    top: 8px;
+    width: 156px;
+    height: 118px;
+}
+.header_list{
     position: relative;
-    width: 940px;
-    height: 150px;
-    background-color: #778A50;
-    border-radius: 5px;
-    margin: 25px 0 0 160px;
-    padding-top: 13px;
-    padding-left: 20px;
-}
-.nav-list{
+    width: 298px;
+    height: 73px;
+    left: 982px;
+    top: 52px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
     display: flex;
-    margin: 0;
-    padding: 0 0 0 30px;
-}
-.nav-list-item{
-    list-style: none;
-    margin-right: 60px;
-}
-.nav-list-item-link{
-    display: block;
-    color: #E5E5E5;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
-.last-footer-box{
+.header_list p{
+    
+    color:#E5E5E5;
+    width: 31px;
+    height: 73px;
+    writing-mode: vertical-rl;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+nav a{
+    text-decoration: none;
+}
+.header_list p:hover{
+    
+    background-color: #A84832 ;
+    color: #E5E5E5;
+}
+.content-area{
+    position: relative;
+    background-color: #E7E4E1;
+    width: 1280px;
+    height: 1027px;
+
+}
+.top_img{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 425px;
+}
+.pro_pic_bg{
+    width: 1280px;
+    height: 425px;
+}
+.circle{
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    left: 473px;
+    top: 29px;
+}
+.moon{
+    position: absolute;
+    width: 301px;
+    height: 301.88px;
+    left: 506px;
+    top: 53px;
+
+}
+.middle_content{
+    position: absolute;
+    left: 0px;
+    top: 425pxpx;
+    width: 1280px;
+    height: 593px;
+}
+.top_dotted_line{
     position: absolute;
     width: 1280px;
-    height: 30px;
-    background-color: #5C5955;
-    margin-top: 200px;
+    height: 5px;
+    left: 0px;
+    top: 0px;
 }
-.footer-text{
+.title1{
     position: absolute;
-    margin: 10px 0 0 479px;
+    top: 25px;
+    left: 171px;
+    width: 137px;
+    height: 24px;
+}
+.title1_text{
+    position: relative;
+    width: 111px;
+    height: 20px;
+    left: 20px;
+    top: 4px;
+    margin: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #918B84;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title1_white_box{
+    position: absolute;
+    width: 95px;
+    height: 21px;
+    left: 23px;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.8);
+}
+.title1_red_box{
+    position: absolute;
+    width: 94px;
+    height: 6px;
+    left: 43px;
+    top: 18px;
+
+    background: #EB5635;
+}
+.middle_dotted_line{
+    position: absolute;
+    width: 900px;
+    height: 2.43px;
+    left: 190px;
+    top: 167px;
+}
+.title2{
+    position: absolute;
+    top: 197px;
+    left: 171px;
+    width: 137px;
+    height: 24px;
+}
+.title2_text{
+    position: relative;
+    width: 111px;
+    height: 20px;
+    left: 20px;
+    top: 4px;
+    margin: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #918B84;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.latest_img{
+    position: absolute;
+    left: 213px;
+    top: 254px;
+    width: 853px;
+    height: 273px;
+}
+.zootopia{
+    position: relative;
+    width:273px; 
+    height:273px;
+    overflow:hidden;
+}
+.zootopia img{
+    /*max-height: 100%;*/
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+.zootopia img:hover{
+    transform:scale(1.2,1.2);
+}
+.FuHua{
+    position: relative;
+    left: 290px;
+    bottom: 273px;
+    width:273px; 
+    height:273px;
+    overflow:hidden;
+}
+.FuHua img{
+    max-height: 100%;
+    /*max-width: 100%; */
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+.FuHua img:hover{
+    transform:scale(1.2,1.2);
+}
+.nokk{
+    position: relative;
+    left: 580px;
+    bottom: 546px;
+    width:273px; 
+    height:273px;
+    overflow:hidden;
+}
+.nokk img{
+    /*max-height: 100%;*/
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    transform:scale(1,1);transition: all 1s ease-out;
+}
+.nokk img:hover{
+    transform:scale(1.2,1.2);
+}
+
+footer{
+    background-color: #E7E4E1;
+    position: absolute;
+    background-image: url("/pic/footer_bg.png");
+    height:208px;
+    width: 1280px ;
+}
+
+.footer_logo{
+    position: absolute;
+    right: 0;
+    left: 1106px;
+
+}
+.fb{
+    position: absolute;
+    right: 338px;
+    bottom: 50px;
+
+}
+.twitter{
+    position: absolute;
+    right: 268.16px;
+    bottom: 54px;
+
+}
+.ig{
+    position: absolute;
+    right: 196px;
+    bottom: 50px;
+}
+footer p{
+    position: absolute;
     color: #E5E5E5;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    margin: 0;
+    bottom:14px;
+    width: 395px;
+    height: 16px;
+    left: 442px;
+    top: 180px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
 }
